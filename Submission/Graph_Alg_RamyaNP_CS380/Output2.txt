@@ -1,0 +1,139 @@
+
+								Graph Theory 2021
+		Algorithms in the order that they occur:
+
+			1.) Welsh-Powell Graph Colouring
+			2.) Fleury's Algorithm for printing Eulerian Path or Circuit
+			3.) Maximum Bipartite Matching
+			4.) Boruvka's algorithm for Minimum Spanning Trees
+			5.) Reverse Delete Algorithm for Minimum Spanning Tree
+			6.) Tarjan's Algorithm to find Strongly Connected Components
+			7.) Solution to Chinese Postman Problem
+
+
+Welsh-Powell Graph Colouring
+
+Number of vertices: 
+Number of edges:
+Enter vertex pairs with edge in between : Eg. (0 1) -> Edge between V0 and V1
+
+Edge1 :
+Edge2 :
+Edge3 :
+Edge4 :
+Edge5 :
+													Adjecency Matrix
+	0 1 1 1 
+	1 0 1 0 
+	1 1 0 1 
+	1 0 1 0 
+The vertices are colored in the following pattern:
+Vertex 0 Color 1 
+Vertex 1 Color 3 
+Vertex 2 Color 2 
+Vertex 3 Color 3 
+Chormatic number is : 3
+
+
+
+Fleury's Algorithm for printing Eulerian Path or Circuit
+Euler Path Or Circuit:
+	trail:
+		0 -- 1 1 -- 2 2 -- 0 0 -- 3 3 -- 2 
+
+
+Maximum Bipartite Matching
+
+For Maximum Bipartite Matching:
+	Number of vertices: 	Number of edges:
+Enter vertex pairs with edge in between : Eg. (0 1) -> Edge between V0 and V1
+
+Edge1 :
+Edge2 :
+Edge3 :
+Edge4 :
+Edge5 :
+Edge6 :Maximum number of Matchings is 2
+
+
+
+Borůvka's algorithm for Minimum Spanning Trees
+Boruvka's MST
+	V:
+	E:
+Enter vertex pairs with edge in between : Eg. (0 1) -> Edge between V0 and V1
+Edge1 :Weight?Edge2 :Weight?Edge3 :Weight?Edge4 :Weight?Edge5 :Weight?Edge6 :Weight?Edge7 :Weight?Edge8 :Weight?Edge9 :Weight?Edge10 :Weight?Edge11 :Weight?Edge12 :Weight?Edge13 :Weight?Edge14 :Weight?Edge 0-1 included in MST
+Edge 8-2 included in MST
+Edge 2-3 included in MST
+Edge 3-4 included in MST
+Edge 6-5 included in MST
+Edge 7-6 included in MST
+Edge 0-7 included in MST
+Edge 2-5 included in MST
+Weight of MST is 37
+
+
+
+Reverse Delete Algorithm for Minimum Spanning Tree
+Number of vertices: Number of edges:
+Enter vertex pairs with edge in between : Eg. (0 1) -> Edge between V0 and V1
+Edge1 :Weight?Edge2 :Weight?Edge3 :Weight?Edge4 :Weight?Edge5 :Weight?Edge6 :Weight?Edge7 :Weight?Edge8 :Weight?Edge9 :Weight?Edge10 :Weight?Edge11 :Weight?Edge12 :Weight?Edge13 :Weight?Edge14 :Weight?Edge 0-1 included in MST
+Edge 8-2 included in MST
+Edge 2-3 included in MST
+Edge 3-4 included in MST
+Edge 6-5 included in MST
+Edge 7-6 included in MST
+Edge 0-7 included in MST
+Edge 2-5 included in MST
+Weight of MST is 37
+
+
+
+Tarjan's Algorithm to find Strongly Connected Components
+Number of vertices: Number of edges:
+Enter vertex pairs with edge in between : Eg. (0 1) -> Edge between V0 and V1
+
+Edge1 :
+Edge2 :
+Edge3 :
+Edge4 :
+Edge5 :
+Edge6 :
+Edge7 :
+Edge8 :5
+3
+4
+6
+2, 1, 0
+
+
+
+Solution to Chinese Postman Problem
+	V:
+	E:
+Enter vertex pairs with edge in between : Eg. (0 1) -> Edge between V0 and V1
+
+Edge1 :
+Weight?
+Edge2 :
+Weight?
+Edge3 :
+Weight?
+Edge4 :
+Weight?
+Edge5 :
+Weight?
+Edge6 :
+Weight?
+Edge7 :
+Weight?
+Edge8 :
+Weight?
+Edge9 :
+Weight?
+Edge10 :
+Weight?
+Edge11 :
+Weight?
+
+Miniumn Cost Incurred: 70
